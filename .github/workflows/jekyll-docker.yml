@@ -1,0 +1,13 @@
+            - name: Publish Blogs
+  # You may pin to the exact commit or the version.
+  # uses: C-Naoki/zenn-qiita-sync@0f9b91eb3b90b1b4d6afd094fdb39d9601a82ca7
+  uses: C-Naoki/zenn-qiita-sync@v1.0.0
+  with:
+    # Root directory path
+    root: # optional, default is ./qiita
+    # Qiita API token
+    qiita-token: 
+    # Commit message for converting Zenn articles to Qiita format
+    convert-commit-message: # optional, default is Convert Zenn articles to Qiita format
+    # Qiita commit message
+    qiitacli-commit-message: # optional, default is Updated by qiita-cli
